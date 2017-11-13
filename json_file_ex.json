@@ -1,0 +1,21 @@
+///example Json file how you have on kafka server
+{
+   "command":"add",
+   "file": "/rules/icmp.rules",
+   "snort_rule": {
+      "protocol": "icmp",
+      "sourceIp": "192.15.24.24",
+      "sourcePort": 0,
+      "destinationIp": "192.155.24.23",
+      "destinationPort": 0,
+      "msg": "icmp",
+      "additionalOptions": [
+         {
+            "sid": 1000001,
+            "pid": 1000002,
+            "gid": 1000002,
+            "rid": 1000002
+         }
+      ]
+   }
+}
