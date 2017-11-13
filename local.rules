@@ -1,0 +1,6 @@
+
+alert tcp $HOME_NET any -> any any (sid: 1000001; md5:"1184c36899a246200a75f1a5d4687008", length 11,offset -6; msg:"HASH"; classtype:sdf; rev:6; )
+alert tcp $HOME_NET any -> any any (sid: 1000002; md5:"1184c36899a246200a75f1a5d4687008", length 11,offset -6; msg:"HASH"; classtype:sdf; rev:6; )
+alert tcp $HOME_NET any -> any any (sid: 1000003; md5:"1184c36899a246200a75f1a5d4687008", length 11,offset -6; msg:"HASH"; classtype:sdf; rev:6; )
+alert tcp $HOME_NET any -> any any (sid: 1000004; md5:"1184c36899a246200a75f1a5d4687008", length 11,offset -6; msg:"HASH"; classtype:sdf; rev:6; )
+# alert tcp $HOME_NET any -> any any (sid: 1000000; md5:"1184c36899a246200a75f1a5d4687008", length 11,offset -6; msg:"HASH"; classtype:sdf; rev:6; )

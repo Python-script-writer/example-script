@@ -1,0 +1,3 @@
+alert icmp 192.15.24.24  0 -> 192.155.24.23  0 (msg:"icmp"; gid:1000002; rid:1000002; pid:1000002; sid: 1000000;)
+disable
+local.rules
